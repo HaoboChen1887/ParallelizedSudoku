@@ -1,0 +1,2 @@
+compile: main.cu
+	nvcc -o main SudokuGrid.cu SolutionGrid.cu main.cu -std=c++11
